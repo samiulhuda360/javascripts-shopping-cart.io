@@ -19,10 +19,10 @@ document.getElementById("clearCart").onclick = emptyCart;
 let update = ((id) => {
     let totalitems = basket.map((x) => x.item).reduce((x,y) =>x+y, 0)
     if (totalitems > 1){
-    cartTotal.innerHTML = totalitems + ` Items`;
+    cartTotal.innerHTML = totalitems + ` Items Selected`;
     }
     else {
-    cartTotal.innerHTML = totalitems + ` Item`;
+    cartTotal.innerHTML = totalitems + ` Item Selected`;
     }
 })
   
