@@ -1,0 +1,25 @@
+.icon-cross, .bi-dash, .bi-plus {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 5px;
+    font-weight: bolder;
+}
+
+.icon-cross {
+    color: rgb(24, 3, 3);
+}
+
+.icon-cross:hover {
+    color: red;
+}
+
+/* .clearCart {
+    padding:4px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    
+
+} */
+
+
