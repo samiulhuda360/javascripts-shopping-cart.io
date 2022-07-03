@@ -13,13 +13,13 @@
     color: red;
 }
 
-/* .clearCart {
-    padding:4px;
+.clearCart {
+    padding: 6px 4px;
     border-radius: 4px;
     background-color: red;
     color: white;
-    
-
-} */
+    font-size: 18px;
+    font-weight: bolder;
+}
 
 
