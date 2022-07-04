@@ -95,6 +95,7 @@ let addToCart = (id)=> {
     }
     update();
     showCartItems();
+    TotalAmount();
     showSummary();
     localStorage.setItem('data', JSON.stringify(basket));
 }
